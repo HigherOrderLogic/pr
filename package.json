@@ -23,7 +23,8 @@
     "test:watch": "vitest",
     "release": "bumpp -r",
     "prepare": "skills experimental_sync -y",
-    "storybook": "pnpm -F @pulls.review/app run storybook"
+    "storybook": "pnpm -F @pulls.review/app run storybook",
+    "i18n:check": "x18n check"
   },
   "devDependencies": {
     "@antfu/eslint-config": "catalog:dev",
